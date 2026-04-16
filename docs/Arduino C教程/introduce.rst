@@ -1,3 +1,12 @@
+资料下载
+========
+
+请先下载Arduino资料和Mixly资料，资料下载地址：
+
+:download:`点击下载Arduino资料文件<Arduino资料.7z>`
+
+:download:`点击下载Mixly资料文件<Mixly资料.7z>`
+
 套件介绍
 ========
 
