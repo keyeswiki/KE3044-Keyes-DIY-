@@ -12,13 +12,13 @@ Arduino C教程
 
 |image2|
 
-控制板的主控芯片是ATmega328PB-AU。和官网的Arduino
+控制板的主控芯片是ATMEGA328P-AU。和官网的Arduino
 uno对比，控制板使用的USB转串口芯片为CH340，其他的使用方法完全一样。它具有14路数字输入/输出口（其中6路可作为PWM输出），8路模拟输入，通信IO有IIC、SPI、UART;为了方便接线扩展了传感器排针接口。其中ICSP接口用来给控制板烧录固件。供电方式有USB线供电或DC端供电。
 
 规格参数
 ~~~~~~~~
 
-主控芯片：ATmega328PB-AU
+主控芯片：ATMEGA328P-AU
 
 USB转串口芯片：CH340
 
@@ -38,9 +38,9 @@ PWM通道： 6 (D3 D5 D6 D9 D10 D11)
 
 Flash Memory: 32 KB
 
-SRAM:2 KB (ATmega328PB-AU)
+SRAM:2 KB (ATMEGA328P-AU)
 
-EEPROM:1 KB (ATmega328PB-AU)
+EEPROM:1 KB (ATMEGA328P-AU)
 
 时钟速度: 16MHz
 
