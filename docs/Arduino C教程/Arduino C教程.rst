@@ -516,7 +516,7 @@ IDE的串口监视器，可以看到打印出4个土壤湿度传感器检测到�
      Serial.print("  ");
      Serial.print("SoilSensor 4 =  ");
      Serial.println(val4);
-     if(val1 < 420){                    //当土壤传感器检测到湿度值大于420时打开水泵
+     if(val1 > 420){                    //当土壤传感器检测到湿度值大于420时打开水泵
        digitalWrite(IN1, HIGH);
      }else{
        digitalWrite(IN1, LOW);
